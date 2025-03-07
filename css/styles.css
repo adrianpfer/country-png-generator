@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Neue Helvetica for Zara';
+  src: url("https://static.zarahome.net/8/static4/itxwebstandard/fuentes/main/external/helvetica_neue/NeueHelveticaforZara-Lt.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  background-color: transparent !important;
+}
+
+body.rtl .container-icon-qa {
+  right: 8%;
+  left: auto;
+}
+
+.text-group {
+  width: 100%;
+  height: 100%;
+  color: #000;
+  font-family: 'Neue Helvetica for Zara';
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 2%;
+}
+
+.text-group .title,
+.text-group .subtitle,
+.text-group .preparatucesta,
+.text-group .footer-legal {
+  width: 100%;
+  text-align: center;
+}
+
+.text-group .title {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1;
+  margin: 0 10px;
+}
+
+.text-group .title.maintitle {
+  font-size: 6rem;
+  color: #FCFEB8;
+}
+
+.text-group .subtitle {
+  font-size: 3rem;
+}
+
+.text-group .preparatucesta {
+  font-size: 2.7rem;
+  margin: 1.5rem auto 0;
+  text-decoration: underline;
+}
+
+.textgroup-footer {
+  position: absolute;
+  bottom: 20%;
+  padding: 0 2%;
+  text-align: center;
+  width: 100%;
+  z-index: 10;
+}
+
+.textgroup-footer .footer-legal {
+  font-size: 1.8rem;
+}
+
+.container-icon-qa {
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+}
+
+.container-icon-qa .icon-qa {
+  width: 50%;
+  height: auto;
+}
+
+body.portrait .text-group {
+  padding: 0 5%;
+}
+
+body.portrait .text-group .title {
+  font-size: 8rem;
+}
+
+body.portrait .text-group .title.maintitle {
+  font-size: 10rem;
+}
+
+body.portrait .text-group .subtitle {
+  font-size: 6.5rem;
+}
+
+body.portrait .text-group .preparatucesta {
+  font-size: 6rem;
+}
+
+body.portrait .textgroup-footer {
+  padding: 0 5%;
+}
+
+body.portrait .textgroup-footer .footer-legal {
+  font-size: 2.5rem;
+}
+
+body.portrait .container-icon-qa .icon-qa {
+  width: 40%;
+}
